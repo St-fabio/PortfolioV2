@@ -1,0 +1,180 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+section {
+    margin: 10px;
+    background-color: #1D4053;
+    border: 5px solid #17303E;
+    border-radius: 10px;
+}
+
+/*Page home*/
+/*line1*/
+#line1 {
+    display: flex;
+}
+
+/*Title*/
+h1#title {
+    text-align: center;
+}
+
+/*Section réseau*/
+#réseau {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 0px;
+    background-color: black;
+}
+
+#réseau img {
+    width: 40px;
+}
+
+/*Section perso*/
+#character {
+    display: flex;
+}
+
+#character img {
+    width: 80px;
+    margin-left: 4px;
+}
+
+img#perso {
+    width: 280px;
+    object-fit: cover;
+}
+
+#character td {
+    background-color: #1F2F37;
+    border: 5px solid #374952;
+    border-radius: 5px;
+    width: 88px;
+    height: 88px;
+}
+
+/*Section projets*/
+#projets h1 {
+    margin-left: 10px;
+}
+
+#projets td {
+    background-color: #1F2F37;
+    border: 5px solid #374952;
+    border-radius: 5px;
+    width: 88px;
+    height: 88px;
+}
+
+#projets td img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: 4px;
+    transition: 0.50s;
+}
+
+#projets td img:hover {
+    transform: scale(1.2);
+}
+
+/*Section stats*/
+#stats {
+    width: 280px;
+}
+
+#stats h2 {
+    font-size: 17px;
+    margin: 5px 19px 5px 0px;
+}
+
+#stats td {
+    border: none;
+    margin: 0%;
+    padding: 0px 5px;
+}
+
+/*Section description*/
+#description h1 {
+    margin-left: 10px;
+}
+
+#description p {
+    margin-left: 25px;
+}
+
+/*Page projet*/
+/*Section Pline1*/
+#pline1 {
+    display: flex;
+    justify-content: center;
+}
+
+#pline1 img {
+    background-color: cyan;
+    border: 5px solid darkcyan;
+    width: 88px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#pline1 h1 {
+    margin: 20px;
+    font-size: 40px;
+}
+
+/*Section Pline2*/
+#pline2 {
+    display: flex;
+
+}
+
+#pline2 section#pdesc {
+    width: 75%;
+}
+
+#pline2 section#ptable {
+    width: 25%;
+}
+
+#pline2 section#ptable table {
+    margin: 20px auto 10px;
+    border-collapse: collapse;
+    border: 2px solid white; 
+}
+
+td {
+    border: 2px solid white;
+    padding: 5px;
+}
+
+#pline2 section#pdesc p {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#pline2 section h1:first-child {
+    padding-left: 5px;
+}
+
+#ptable h2 {
+    text-align: center;
+}
+
+#ptable img {
+    width: 60px;
+    padding-left: 41%;
+}
+
+#pdesc div#imgProject {
+    display: flex;
+}
+
+#pdesc img {
+    width: 45%;
+    margin: 2%;
+}
